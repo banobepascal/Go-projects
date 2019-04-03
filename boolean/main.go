@@ -3,13 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	var truth = 3 <= 5
-	var falsehood = 10 != 10
+	truth := 20 > 10
+	falsehood := 20 != 40
 
 	// shorthand
 
-	var res1 = 10 > 20 && 20 == 20
-	var res2 = 3 > 2 || 10%3 == 0
-	
+	res1 := 20 >= 10 && 10 == 10
+	res2 := 40 >= 20 || 5%2 == 0
+
 	fmt.Println(truth, falsehood, res1, res2)
+
 }

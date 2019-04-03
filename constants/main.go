@@ -16,5 +16,5 @@ func main() {
 		codee = 78
 	)
 
-	fmt.Println()
+	fmt.Println("")
 }
